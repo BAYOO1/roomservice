@@ -1,2 +1,2 @@
-# roomservice
-Local_Manifests for my ROMs
+# Temasek Roomservice.xml
+This Local_Manifests goes into .repo/local_manifests/roomservice.xml

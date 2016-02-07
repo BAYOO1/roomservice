@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <project name="Trafalgar-Square/android_device_oneplus_oneplus2" path="device/oneplus/oneplus2" remote="github" revision="temasek-mm6.0" />
-  <project name="benschhold/android_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-13.0" />
-  <project name="benschhold/android_kernel_oneplus_msm8994" path="kernel/oneplus/msm8994" remote="github" revision="cm-13.0" />
-  <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" revision="cm-13.0" />
-  <project name="CyanogenMod/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cm-13.0" />
-  <project name="benschhold/android_device_oppo_common" path="device/oppo-common" remote="github" revision="cm-13.0" />
-</manifest>

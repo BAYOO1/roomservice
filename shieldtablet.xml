@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <project name="Trafalgar-Square/android_device_oneplus_shieldtablet" path="device/nvidia/shieldtablet" remote="github" revision="mm6.0" />
-  <project name="CM-Shield/proprietary_vendor_nvidia" path="vendor/nvidia" remote="github" revision="cm-13.0" />
-  <project name="CM-Shield/android_kernel_nvidia_shieldtablet" path="kernel/nvidia/shieldtablet" remote="github" revision="cm-13.0" />
-  <project name="CM-Shield/android_hardware_nvidia_power" path="hardware/nvidia/power" remote="github" revision="cm-12.1" />
-</manifest>

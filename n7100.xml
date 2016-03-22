@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="CyanogenMod/android_device_samsung_n7100" path="device/samsung/n7100" remote="github" revision="cm-12.1" />
-  <remove-project name="CyanogenMod/android_device_samsung_n7100" />
-  <project name="Trafalgar-Square/android_device_samsung_n7100" path="device/samsung/n7100" remote="github" revision="cm-13.0" />
-  <project name="CyanogenMod/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="cm-13.0" />
+  <remove-project name="BlissRoms/android_frameworks_native" />
+  <project name="ivanmeler/android_frameworks_native" path="frameworks/native" remote="github" />
+  <project name="CyanogenMod/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
   <remove-project name="CyanogenMod/android_device_samsung_smdk4412-common" />
-  <project name="Trafalgar-Square/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="cm-13.0" />
-  <project name="CyanogenMod/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-13.0" />
-  <remove-project name="CyanogenMod/android_kernel_samsung_smdk4412" />
-  <project name="Trafalgar-Square/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-13.0" />
-  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-13.0" />
+  <project name="ivanmeler/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
+  <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" />
+  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
   <remove-project name="CyanogenMod/android_hardware_samsung" />
-  <project name="Trafalgar-Square/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-13.0" />
-  <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-13.0" />
-  <project name="Trafalgar-Square/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="nameless" />
-  <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" revision="cm-13.0" />
-  </manifest>
+  <project name="ivanmeler/android_hardware_samsung" path="hardware/samsung" remote="github" />
+  <project name="Haxynox/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="Mmm" />
+  <project name="BlissRoms-Devices/android_device_samsung_n7100" path="device/samsung/n7100" remote="github" revision="mm6.0" />
+  <project name="Haxynox/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="Mmm" />
+  <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" />
+  <remove-project name="CyanogenMod/android_hardware_libhardware" />
+  <project name="ivanmeler/android_hardware_libhardware" path="hardware/libhardware" remote="github" />
+</manifest>
